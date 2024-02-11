@@ -1,9 +1,8 @@
 package com.promineotech;
-
-public interface Logger {
+public interface Logger { // sets interface Logger
 	
-	public void log(String log);
-	public void error(String error);
+	public void log(String log); //declares log and gives parameters accepted
+	public void error(String error); //declares error and gives parameters accepted
 	
-
 }
+
